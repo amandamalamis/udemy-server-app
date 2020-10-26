@@ -2,6 +2,7 @@ const express = require('express');
 require('./services/passport');
 
 const app = express();
+const mongoose = mongoose();
 
 require('./routes/authRoutes')(app);
 
